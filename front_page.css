@@ -1,0 +1,9 @@
+svg image{
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+    }
+#map{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
