@@ -4,6 +4,45 @@ svg image{
     }
 #map{
 	position:absolute;
-	left:0px;
-	top:0px;
+	right:0px;
+	top:-10px;
+	padding:0px;
+	margin:0px;
+}
+#logo{
+	height:50px;
+	width:50px;
+	background-color:#E13F29;
+	border-radius:50%;
+	margin:30px;
+	margin-left:40px;
+}
+.tip-text{
+	font-size:14px;
+	letter-spacing:1px;
+	
+	color:#222;
+	font-family: 'La Belle Aurore', cursive;
+}
+#themes{
+	font-size:11px;
+	letter-spacing:1px;
+	color:#666;
+	font-family: 'Helvetica';
+	position:fixed;
+	left:50px;
+	
+}
+#themes p{
+	padding-left:20px;
+	line-height:12px;
+	font-size:11px;
+	font-weight:100;
+}
+h1{
+	font-size:12px;
+	font-weight:100;
+}
+ul.a {
+    list-style-type: none;
 }
