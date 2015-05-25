@@ -62,5 +62,5 @@ var colorArray = ["#9FD9DA","#DEC578","#DBBFD5","#EBAD90","#A1DDAF","#D5CFB3","#
 var svg = d3.select("svg").append("g")
 
 for(var i in cities){
-	drawCityDot(i,.1,svg)
+	drawCityDot(i,.2,svg)
 }
